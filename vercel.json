@@ -2,5 +2,5 @@
   "version": 2,
   "buildCommand": "cd to-do-list && npm install && npm run build",
   "outputDirectory": "to-do-list/dist",
-  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
+  "routes": [{ "src": "/(.*)", "dest": "/to-do-list/index.html" }]
 }
